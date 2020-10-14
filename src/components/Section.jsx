@@ -1,5 +1,6 @@
 import React from 'react';
 
+import {SectionLayout} from '../styles'
 /*export default class extends React.Component{
     render(){
         return(
@@ -9,6 +10,6 @@ import React from 'react';
 }*/
 
 export default props =>
-    <div>
+    <SectionLayout>
         <h2>{props.nome}</h2>
-    </div>
+    </SectionLayout>
